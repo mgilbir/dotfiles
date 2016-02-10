@@ -149,10 +149,10 @@ if [ ! -n "${SHUTTLE_CONTEXT_SHOW+1}" ]; then
   SHUTTLE_CONTEXT_SHOW=false
 fi
 if [ ! -n "${SHUTTLE_CONTEXT_BG+1}" ]; then
-  SHUTTLE_CONTEXT_BG=black
+  SHUTTLE_CONTEXT_BG=white
 fi
 if [ ! -n "${SHUTTLE_CONTEXT_FG+1}" ]; then
-  SHUTTLE_CONTEXT_FG=default
+  SHUTTLE_CONTEXT_FG=black
 fi
 
 # GIT PROMPT
