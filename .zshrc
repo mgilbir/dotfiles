@@ -56,7 +56,7 @@ plugins=(git mercurial)
 # export MANPATH="/usr/local/man:$MANPATH"
 export GOPATH="$HOME/Projects/go"
 export ANDROID_HOME="$HOME/Library/Android/sdk"
-export PATH="$HOME/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:$GOPATH/bin:$ANDROID_HOME/platform-tools/"
+export PATH="$HOME/anaconda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:$GOPATH/bin:$ANDROID_HOME/platform-tools/:$HOME/.local/bin"
 
 export TERM="xterm-256color"
 
