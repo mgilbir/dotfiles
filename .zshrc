@@ -72,6 +72,13 @@ export LANG=en_US.UTF-8
 #   export EDITOR='mvim'
 # fi
 
+if [[ -e /usr/local/bin/nvim ]]; then
+   export EDITOR='nvim'
+   alias vim=$EDITOR
+else
+   export EDITOR='vi'
+fi
+
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 
