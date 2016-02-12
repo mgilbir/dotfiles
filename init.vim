@@ -164,9 +164,6 @@ noremap <Down> gj
 noremap j gj
 noremap k gk
 
-" Just go out in insert mode
-imap jk <ESC>l
-
 " Source (reload configuration)
 nnoremap <silent> <F5> :source $MYNVIMRC<CR>
 
