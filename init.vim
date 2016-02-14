@@ -124,11 +124,18 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
+" Split switching with arrows
+nnoremap <silent> <C-Down> <C-W>j
+nnoremap <silent> <C-Up> <C-W>k
+nnoremap <silent> <C-Left> <C-W>h
+nnoremap <silent> <C-Right> <C-W>l
+
 " Resize window quickly
-" nnoremap <silent> <A-Right> :vertical resize +10<CR>
-" nnoremap <silent> <A-Left> :vertical resize -10<CR>
-" nnoremap <silent> <A-Up> :resize +10<CR>
-" nnoremap <silent> <A-Down> :resize -10<CR>
+nnoremap <silent> <A-Right> :vertical resize +10<CR>
+nnoremap <silent> <A-Left> :vertical resize -10<CR>
+nnoremap <silent> <A-Up> :resize +10<CR>
+nnoremap <silent> <A-Down> :resize -10<CR>
+
 if bufwinnr(1)
   map = <C-W>>
   map - <C-W><
