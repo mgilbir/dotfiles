@@ -7,7 +7,8 @@ Plug 'AndrewRadev/splitjoin.vim'
 Plug 'Raimondi/delimitMate'
 Plug 'ctrlpvim/ctrlp.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'tomasr/molokai'
+Plug 'fatih/molokai'
+Plug 'morhetz/gruvbox'
 Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-repeat'
@@ -81,7 +82,7 @@ if has('persistent_undo')
 	set undodir=~/.nvim/tmp/undo//
 endif
 
-
+colorscheme molokai
 
 "=====================================================
 "===================== MAPPINGS ======================
