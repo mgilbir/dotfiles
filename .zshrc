@@ -103,3 +103,13 @@ fi
 # go vendor experiment in 1.5.x
 export GO15VENDOREXPERIMENT=1
 
+
+# The next line updates PATH for the Google Cloud SDK.
+source '/Users/mgilbir/Projects/google-cloud-sdk/path.zsh.inc'
+
+# The next line enables shell command completion for gcloud.
+source '/Users/mgilbir/Projects/google-cloud-sdk/completion.zsh.inc'
+
+if [[ -e ~/.zshrc_secrets ]]; then
+  source ~/.zshrc_secrets
+fi
