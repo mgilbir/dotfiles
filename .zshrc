@@ -103,6 +103,8 @@ fi
 # go vendor experiment in 1.5.x
 export GO15VENDOREXPERIMENT=1
 
+# remove ._ files from tar
+export COPYFILE_DISABLE=true
 
 # The next line updates PATH for the Google Cloud SDK.
 source '/Users/mgilbir/Projects/google-cloud-sdk/path.zsh.inc'
